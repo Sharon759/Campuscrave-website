@@ -1,0 +1,114 @@
+.cart{
+    margin-top: 100px;
+}
+.cart-items-title{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr ;
+    align-items: center;
+    color: grey;
+   
+    font-size: max(1vw,12px);
+}
+.cart-items-item{
+    margin:10px 0px;
+    color: black;
+    font-weight: 500;
+}
+
+.cart-items-item img{
+    width: 75px;
+    height:75px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cart hr{
+    height:1.5px;
+    background-color:grey;
+    border: none;
+    
+}
+.cross{
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+.cart-bottom{
+    margin: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap:max(12vw,20px)
+}
+.cart-total {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.cart-total h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 25px;
+    text-align: center;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 10px;
+}
+
+.cart-total-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.cart-total-details p:first-child {
+    font-weight: 600;
+}
+
+.cart-total-details p:last-child {
+    font-weight: bold;
+    color: #333;
+}
+
+.cart-total button {
+    background: linear-gradient(90deg, #ff6b6b, #ff4d4d);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 0;
+    width: 100%;
+    max-width: 300px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 25px auto 0;
+    transition: background 0.3s ease, transform 0.2s ease;
+    align-self: center;
+}
+
+.cart-total button:hover {
+    background: linear-gradient(90deg, #ff4d4d, #ff6b6b);
+    transform: translateY(-2px);
+}
+
+.cart-total button:active {
+    transform: translateY(0);
+}
+
+.cart-total-summary {
+    margin: 20px 0;
+    font-size: 1.1rem;
+    color: #888;
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+.Homeconta{
+  /*background-color: white; can be ignored*/
+  height: 100vh; /* Set the height to fill the screen */
+  margin: 0; /* Remove default margins */
+ /* padding: 18px 70px;*/ /* Remove default padding */
+  
+}
+html {
+  /*
+  margin: 0; 
+  padding: 0; 
+  height: 100%; 
+  */
+  background-color: white; /* Default background color, enitire sc */
+  
+}
+  
